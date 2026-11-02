@@ -1,7 +1,7 @@
 const handleRazorpayCheckout = async () => {
   try {
     // 1. Request order creation from your Express backend
-   const response = await fetch("http://localhost:5000/api/payment/create-order", {
+   const response = await fetch("/api/payment/create-order", {
   method: "POST", // <-- Ensure this is POST
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ 
