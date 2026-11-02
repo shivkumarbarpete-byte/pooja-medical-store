@@ -1,0 +1,14 @@
+.cart-nav-btn {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.cart-nav-btn:hover {
+  background-color: #d35400;
+}
